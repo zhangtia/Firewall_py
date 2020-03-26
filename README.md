@@ -29,7 +29,3 @@ After reading the sprcifications, my first thought was to initialize a hash tabl
 However, as I was testing (mentioned above) I realized that initializing every single composite key was taking way too long and I decided to go with the raw inputs of port and ip addresses as composite key of my hash table. This would greatly reduce the initialization time while the trade off would be a possible slower lookup.
 
 I still wanted to take advantage of the O(1) lookup, and I made my accept_packet a O(1) complexity at best and a O(n) in the worst case.
-
-# Illumio interested team
-
-I am most interested in the platform team and then the data team.
